@@ -6,7 +6,7 @@ import { AuthContext } from './authContext'
 import { useForm } from 'react-hook-form'
 import Login from './login'
 import Register from './register'
-const page = () => {
+const Page = () => {
      const {TypeOfAuth} = useContext(AuthContext)
      const {handleSubmit}=useForm()
    const onSubmit=async(data)=>{
@@ -47,4 +47,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
