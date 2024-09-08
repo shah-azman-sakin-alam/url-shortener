@@ -1,0 +1,12 @@
+.auth-buttons button{
+    @apply py-2 border-2 rounded-xl border-dashboard-stroke
+}
+.auth-buttons img{
+    @apply w-6 h-6 mx-auto
+}
+body{
+    @apply bg-slate-50
+}
+input:not([type="checkbox"]) ~ p:not(.disclaimer){
+    @apply text-red-500 text-base   text-center
+}
